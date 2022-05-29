@@ -55,7 +55,7 @@
             Motivation and Results
         </h2>
         <p>
-            First, we give the comparisons of the gradient variances of different network modules in Mask R-CNN, including backbone, FPN, RPN, and heads. From the left to right, the models are trained using SGD optimizer with a batch size of 32, 256, 512 and 1024. When batch size increases from 256 to 1024 (2nd~4th figures in the first row), the gradient variances suffer heavy misalignment between different network modules. In the second row, we show our method outperforms the recent approaches in all tasks, significantly reducing training time.
+            First, we give the comparisons of the gradient variances of different network modules in Mask R-CNN, including backbone, FPN, RPN, and heads. From the left to right, the models are trained using SGD optimizer with a batch size of 32, 256, 512, and 1024. When batch size increases from 256 to 1024 (2nd~4th figures in the first row), the gradient variances suffer heavy misalignment between different network modules. In the second row, we show our method outperforms the recent approaches in all tasks, significantly reducing training time.
         </p>
         <div>
             <img class="figure" src="media/up_cropped.png" width="100%" alt="Visualization">
@@ -66,7 +66,7 @@
             Comparisons of Variances in Different Pipelines
         </h2>
         <p>
-            In the following, we give an overview of variances of different pipelines (ie., RetinaNet, Faster R-CNN, Panoptic FPN, and Semantic FPN) and different optimizers (ie., SGD and AdamW). The number in the bracket represents batch size.
+            In the following, we give an overview of variances of different pipelines (ie., RetinaNet, Faster R-CNN, Panoptic FPN, and Semantic FPN) and different optimizers (ie., SGD and AdamW). The number in the bracket represents batch size. All pipelines use ResNet50 as the backbone network other than the last two figures, where we adopt Faster R-CNN+Swin-Tiny to visualize the variances.
         </p>
         
         <div>
