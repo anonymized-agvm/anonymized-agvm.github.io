@@ -55,7 +55,7 @@
             Highlights
         </h2>
         <p>
-            We also try to push the frontier of large batch size in dense visual prediction tasks (left). Without bells and whistles, the batch size on RetinaNet is successfully scaled to 10k with reasonable performance by AGVM, while PMD-LAMB fails (“NaN”).
+            We also try to push the frontier of large batch size in dense visual prediction tasks. Without bells and whistles, the batch size on RetinaNet (left) is successfully scaled to 10k with reasonable performance by AGVM, while PMD-LAMB fails (“NaN”).
         </p>
         <p>
             Furthermore, we evaluate AGVM on an extremely-large detector with one-billion parameters using the UniNet (right). AGVM still stabilizes and accelerates the training process in such a large model regime. But both AdamW and PMD-LAMB diverge in the early training stage.
