@@ -36,7 +36,7 @@
 
         <div class="description" style="margin-bottom: 1rem">
             <div>
-                AGVM, which focuses on modulating the gradient variances of different network modules, is the first large-batch optimization algorithm for various dense visual prediction tasks (ie., object detection, instance segmentation, semantic segmentation, and panoptic segmentation) and visual architectures (ie., CNNs and Transformers). AGVM achieves many new state-of-the-art performances on large-batch training.
+                AGVM, which focuses on modulating the gradient variances of different network modules, is the first large-batch optimization algorithm for various dense visual prediction tasks (i.e., object detection, instance segmentation, semantic segmentation, and panoptic segmentation) and visual architectures (i.e., CNNs and Transformers). AGVM achieves many new state-of-the-art performances on large-batch training.
             </div>   
         </div>
         
@@ -80,7 +80,7 @@
             Comparisons of Variances in Different Pipelines
         </h2>
         <p>
-            In the following, we give an overview of variances of different pipelines (ie., RetinaNet, Faster R-CNN, Panoptic FPN, and Semantic FPN) and different optimizers (ie., SGD and AdamW). The number in the bracket represents batch size. All pipelines use ResNet50 as the backbone network other than the last two figures, where we adopt Faster R-CNN+Swin-Tiny to visualize the variances.
+            In the following, we give an overview of variances of different pipelines (i.e., RetinaNet, Faster R-CNN, Panoptic FPN, and Semantic FPN) and different optimizers (i.e., SGD and AdamW). The number in the bracket represents batch size. All pipelines use ResNet50 as the backbone network other than the last two figures, where we adopt Faster R-CNN+Swin-Tiny to visualize the variances.
         </p>
         
         <div>
@@ -91,7 +91,7 @@
             Performances on Various Tasks
         </h2>
         <p>
-            We give the comparisons of performances in different tasks (ie., object detection, instance segmentation, semantic segmentation, and panoptic segmentation). All visual predictors are evaluated on the validation set. We use SGD as the optimizer and see that previous methods’ performances drop a lot when scaling the batch size and even result in training failure when the batch size is 1024 (“NaN”). The best-performing models are shown in bold.
+            We give the comparisons of performances in different tasks (i.e., object detection, instance segmentation, semantic segmentation, and panoptic segmentation). All visual predictors are evaluated on the validation set. We use SGD as the optimizer and see that previous methods’ performances drop a lot when scaling the batch size and even result in training failure when the batch size is 1024 (“NaN”). The best-performing models are shown in bold.
         </p>
         <div>
             <img class="figure" src="media/table_2.png" width="100%" alt="Table">
